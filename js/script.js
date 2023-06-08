@@ -8,7 +8,7 @@ const config = {
     serverInfo: {
         serverLogoImageFileName: "logo.png", /*This is a file name for logo in /images/ (If you upload new logo with other name, you must change this value)*/
         serverName: "Days of Reckoning", /*Server name*/
-        serverIp: "play.reckoning.ml", /*Server IP*/
+        serverIp: "play.reckoning.com", /*Server IP*/
         discordServerID: "1104775043252236308" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
     },
 
@@ -39,139 +39,139 @@ const config = {
     userSKinTypeInAdminTeam: "full", /*[full, bust, head, face, front, frontFull, skin]*/
     atGroupsDefaultColors: {
         leaders: "rgba(255, 124, 124, 0.5)",
-        developers: "rgba(230, 83, 0, 0.5)",
+        staff: "rgba(230, 83, 0, 0.5)",
         helpers: "rgba(11, 175, 255, 0.5)",
         builders: "rgba(247, 2, 176, 0.5)",
     },
     adminTeamPage: {
         leaders: [
             {
+                inGameName: "CrownedHero",
+                rank: "Owner",
+                skinUrlOrPathToFile: "",
+                rankColor: "rgba(255, 3, 3, 1)"
+            },
+            {
                 inGameName: "KazuYuki888",
-                rank: "Owner",
+                rank: "Co-Owner",
                 skinUrlOrPathToFile: "",
                 rankColor: "rgba(255, 3, 3, 1)"
             },
-            {
-                inGameName: "Astronavta",
-                rank: "Owner",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgba(255, 3, 3, 1)"
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Manager",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
+            // {
+            //     inGameName: "Astronavta",
+            //     rank: "Manager",
+            //     skinUrlOrPathToFile: "",
+            //     rankColor: ""
+            // },
+            // {
+            //     inGameName: "KinglyJay",
+            //     rank: "Moderator",
+            //     skinUrlOrPathToFile: "",
+            //     rankColor: ""
+            // }
+        ],
+        staff: [
             {
                 inGameName: "KinglyJay",
-                rank: "Moderator",
+                rank: "Staff",
                 skinUrlOrPathToFile: "",
                 rankColor: ""
-            }
+            },
+            {
+                inGameName: "Zxaxer",
+                rank: "Staff",
+                skinUrlOrPathToFile: "",
+                rankColor: ""
+            },
+            // {
+            //     inGameName: "Astronavta",
+            //     rank: "Webmaster",
+            //     skinUrlOrPathToFile: "",
+            //     rankColor: ""
+            // },
+            // {
+            //     inGameName: "Astronavta",
+            //     rank: "Discord manager",
+            //     skinUrlOrPathToFile: "",
+            //     rankColor: ""
+            // }
         ],
-        developers: [
-            {
-                inGameName: "Astronavta",
-                rank: "Developer",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Developer",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Webmaster",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Discord manager",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            }
-        ],
-        helpers: [
-            {
-                inGameName: "Astronavta",
-                rank: "Helper++",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Helper++",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Helper+",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Helper+",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Helper",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Helper",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            }
-        ],
-        builders: [
-            {
-                inGameName: "Astronavta",
-                rank: "Builder++",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Builder++",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Builder+",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Builder+",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Builder",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Builder",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            }
-        ]
+        // helpers: [
+        //     {
+        //         inGameName: "Astronavta",
+        //         rank: "Helper++",
+        //         skinUrlOrPathToFile: "",
+        //         rankColor: ""
+        //     },
+        //     {
+        //         inGameName: "Astronavta",
+        //         rank: "Helper++",
+        //         skinUrlOrPathToFile: "",
+        //         rankColor: ""
+        //     },
+        //     {
+        //         inGameName: "Astronavta",
+        //         rank: "Helper+",
+        //         skinUrlOrPathToFile: "",
+        //         rankColor: ""
+        //     },
+        //     {
+        //         inGameName: "Astronavta",
+        //         rank: "Helper+",
+        //         skinUrlOrPathToFile: "",
+        //         rankColor: ""
+        //     },
+        //     {
+        //         inGameName: "Astronavta",
+        //         rank: "Helper",
+        //         skinUrlOrPathToFile: "",
+        //         rankColor: ""
+        //     },
+        //     {
+        //         inGameName: "Astronavta",
+        //         rank: "Helper",
+        //         skinUrlOrPathToFile: "",
+        //         rankColor: ""
+        //     }
+        // ],
+        // builders: [
+        //     {
+        //         inGameName: "Astronavta",
+        //         rank: "Builder++",
+        //         skinUrlOrPathToFile: "",
+        //         rankColor: ""
+        //     },
+        //     {
+        //         inGameName: "Astronavta",
+        //         rank: "Builder++",
+        //         skinUrlOrPathToFile: "",
+        //         rankColor: ""
+        //     },
+        //     {
+        //         inGameName: "Astronavta",
+        //         rank: "Builder+",
+        //         skinUrlOrPathToFile: "",
+        //         rankColor: ""
+        //     },
+        //     {
+        //         inGameName: "Astronavta",
+        //         rank: "Builder+",
+        //         skinUrlOrPathToFile: "",
+        //         rankColor: ""
+        //     },
+        //     {
+        //         inGameName: "Astronavta",
+        //         rank: "Builder",
+        //         skinUrlOrPathToFile: "",
+        //         rankColor: ""
+        //     },
+        //     {
+        //         inGameName: "Astronavta",
+        //         rank: "Builder",
+        //         skinUrlOrPathToFile: "",
+        //         rankColor: ""
+        //     }
+        // ]
     },
 
     /*
