@@ -83,12 +83,12 @@ const config = {
                 skinUrlOrPathToFile: "",
                 rankColor: ""
             },
-            // {
-            //     inGameName: "Astronavta",
-            //     rank: "Webmaster",
-            //     skinUrlOrPathToFile: "",
-            //     rankColor: ""
-            // },
+            {
+                inGameName: "electro2008",
+                rank: "Staff",
+                skinUrlOrPathToFile: "",
+                rankColor: ""
+            },
             // {
             //     inGameName: "Astronavta",
             //     rank: "Discord manager",
